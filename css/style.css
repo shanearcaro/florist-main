@@ -29,6 +29,10 @@ nav a {
     font-family: 'Poppins', sans-serif;
 }
 
+nav a:hover {
+    color: red;
+}
+
 .container {
     margin-top: -10rem;
 }
