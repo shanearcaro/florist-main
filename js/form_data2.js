@@ -207,7 +207,7 @@ function validate() {
     let form = document.getElementById("mainForm");
     form.method = "post";
     form.setAttribute("onsubmit", "");
-    form.setAttribute("action", "../php/verify.php");
+    form.setAttribute("action", "../verify/verify.php");
     form.submit();
 }
 
