@@ -14,8 +14,15 @@
     INNER JOIN CustomerAccounts ON OrderRecords.customerid=CustomerAccounts.id";
     $result = mysqli_query($connection, $query);
 
-    // Create and populate table element
     
+    echo "<div class='container'>";
+    echo "<div class='title' id='title'>";
+    echo "<h1>The Flowering Pot</h1>";
+    echo "</div>";
+    echo "</div>";
+
+    // Create and populate table element
+
     echo "<div class=container2>";
     echo "<table id='database_table'>";
     echo "<tr><th>" . "Florist First Name" .
