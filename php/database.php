@@ -4,3 +4,4 @@
     $password = "Cr43zg3fsa@";
     $database = "sma237";
 ?>
+

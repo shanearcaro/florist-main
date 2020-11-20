@@ -13,8 +13,8 @@
         <ul>
             <li><a href="../html/form.php">Home</a></li>
             <li><a href="../php/records.php">Search Florist's Records</a></li>
-            <li><a href="">Place An Order</a></li>
-            <li><a href="">Update An Order</a></li>
+            <li><a href="../php/orders.php">Place An Order</a></li>
+            <li><a href="../php/update.php">Update An Order</a></li>
             <li><a href="../php/cancel.php">Cancel An Order</a></li>
             <li><a href="../php/accounts.php">Create A New Customer Account</a></li>
         </ul>
