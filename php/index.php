@@ -12,17 +12,17 @@
     <nav>
         <ul>
             <li><a href="../html/form.php">Home</a></li>
-            <li><a href="./records.php">Search Florist's Records</a></li>
+            <li><a href="../php/records.php">Search Florist's Records</a></li>
             <li><a href="">Place An Order</a></li>
             <li><a href="">Update An Order</a></li>
-            <li><a href="">Cancel An Order</a></li>
-            <li><a href="">Create A New Customer Account</a></li>
+            <li><a href="../php/cancel.php">Cancel An Order</a></li>
+            <li><a href="../php/accounts.php">Create A New Customer Account</a></li>
         </ul>
     </nav>
-    <div class="container">
+    <!-- <div class="container">
         <div class="title" id="title">
             <h1>The Flowering Pot</h1>
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
