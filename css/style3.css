@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1785b1;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+
+nav {
+    background: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-top: -10rem;
+}
+
+.container,
+.container2 {
+    background: white;
+    width: 80%;
+    padding: 0 auto 10rem auto;
+    margin: auto;
+}
+
+.container2 {
+    border-radius: 0 0 2% 2%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+.buttons input,
+.buttons button {
+    background-color: rgb(25, 165, 25);
+    color: white;
+    border: none;
+    padding: .5rem;
+    width: 30%;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#reset_button {
+    display: none;
+}
+
+table {
+    margin: auto;
+    padding: 0 2rem 2rem;
+    border-spacing: 0 15px;
+}
+
+table td,
+table th {
+    /* padding-left: 4rem; */
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    border-right: 0px;
+    padding: 5px;
+}
+
+table td:last-child,
+table th:last-child {
+    border-right: 1px solid black;
+}
+
+table tr .empty {
+    border-left: 0px;
+    background: black;
+}
+
+table tr .empty:first-child {
+    border-left: 1px solid black;
+}
+
+table th {
+    background-color: #4287f5;
+    font-weight: bold;
+    color: white;
+}
