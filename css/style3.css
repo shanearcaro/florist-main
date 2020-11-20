@@ -53,6 +53,24 @@ nav a {
     margin-top: 5rem;
 }
 
+.form_input {
+    padding-left: 2.5rem;
+}
+
+.form_input input {
+    display: flex;
+    border: none;
+    border-bottom: 3px inset #EBE9ED;
+    width: 23rem;
+    margin-bottom: 2rem;
+    text-indent: 5px;
+}
+
+.required_text {
+    color: red;
+    font-size: .75rem;
+}
+
 
 .buttons input,
 .buttons button {
