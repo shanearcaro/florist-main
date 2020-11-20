@@ -35,6 +35,9 @@
     if ($size == 0 && $result) {
         $query = "INSERT INTO CustomerAccounts (customer_firstname, customer_lastname, id) VALUES ('{$firstName}', '{$lastName}', '{$idNumber}')";
         mysqli_query($connection, $query);
+        echo '<script language="javascript">';
+        echo 'alert("Account created.")';
+        echo '</script>';
     }
     else {
         echo '<script language="javascript">';

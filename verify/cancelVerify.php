@@ -25,6 +25,9 @@
     else {
         $query = "DELETE FROM OrderRecords WHERE order_number='{$orderNumber}' AND customerid='{$idNumber}'";
         mysqli_query($connection, $query);
+        echo '<script language="javascript">';
+        echo 'alert("Order successfully canceled.")';
+        echo '</script>';
     }
     mysqli_close($connection);
 ?>
