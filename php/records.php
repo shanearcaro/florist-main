@@ -22,7 +22,6 @@
     // Adding order number to display otherwise to delete an order you have to have the actual database infront of you
     // instead of the website's records
 
-    
     echo "<div class='container'>";
     echo "<div class='title' id='title'>";
     echo "<h1>The Flowering Pot</h1>";
