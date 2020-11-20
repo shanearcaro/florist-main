@@ -15,19 +15,31 @@
     <div class="container" style="width: 25%">
         <div class="title" id="title">
             <h1>The Flowering Pot</h1>
-            <h3>Cancel Order</h3>
+            <h3>Place Order</h3>
         </div>
         <p style="padding-bottom: 3rem"></p>
     </div>
 
     <div class="container2" style="width: 25%">
-        <form action="../verify/cancelVerify.php" id="cancelForm" method="post" onsubmit="return confirm('Are you sure you want to delete this record?');">
+        <form action="../verify/ordersVerify.php" id="orderForm" method="post" onsubmit="">
             <div class="form_input">
                 <p class="required_text">* Required</p>
-                <input type="text" id="idNumber" name="idNumber" placeholder="Customer ID Number">
+                <input type="text" id="firstName" name="firstName" placeholder="Customer Fist Name">
 
                 <p class="required_text">* Required</p>
-                <input type="text" id="orderNumber" name="orderNumber" placeholder="Order Number">
+                <input type="text" id="lastName" name="lastName" placeholder="Customer Last Name">
+
+                <p class="required_text">* Required</p>
+                <input type="text" id="idNumber" name="idNumber" placeholder="Customer ID">
+
+                <p class="required_text">* Required</p>
+                <input type="text" id="arrangment" name="arrangment" placeholder="Arrangment (number)">
+
+                <p class="required_text">* Required</p>
+                <input type="date" id="date" name="date" placeholder="">
+
+                <p class="required_text">* Required</p>
+                <input type="text" id="address" name="address" placeholder="Address">
                 <div class="buttons" style="padding-left: 7rem">
                     <button class="buttons" type="submit">Submit</button>
                 </div>
@@ -36,4 +48,4 @@
         <p style="padding-bottom: 3rem"></p>
     </div>
 </body>
-</html>
+</html> 
